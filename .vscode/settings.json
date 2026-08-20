@@ -1,14 +1,23 @@
 {
-    "cSpell.words": [
-        "appleboy",
-        "buildcache",
-        "buildx",
-        "Buildx",
-        "talexia",
-        "turbopack",
-        "Turbopack",
-        "talexia",
-        "turbopack",
-        "Turbopack"
-    ]
+  "cSpell.words": [
+    "appleboy",
+    "buildcache",
+    "buildx",
+    "Buildx",
+    "talexia",
+    "turbopack",
+    "Turbopack",
+    "talexia",
+    "turbopack",
+    "Turbopack"
+  ],
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
